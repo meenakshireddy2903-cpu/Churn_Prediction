@@ -26,9 +26,7 @@ st.write("Enter customer details below")
 # Load trained model
 model = pickle.load(open("model.pkl","rb"))
 
-st.title("Customer Churn Prediction")
 
-st.write("Enter Customer Details")
 
 # Inputs
 # Gender
